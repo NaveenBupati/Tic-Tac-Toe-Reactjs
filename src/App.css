@@ -1,0 +1,65 @@
+/* Styling for board row */
+.board-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Light gray background color */
+  }
+  
+  /* Styling for board container */
+  .board-container {
+    margin: 0 auto;
+    margin-top: 15px;
+    border: 2px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    border-radius: 8px;  
+    background-color: #f0f0f0;
+    width: 30%;
+  }
+
+  .para{
+    text-align: center;
+    color: blue;
+  }
+
+  
+  
+  .button-container {
+    display: flex;
+    justify-content: center; /* Center contents horizontally */
+    align-items: center; /* Center contents vertically */
+    margin-top: 20px; /* Example margin for spacing */
+  }
+  
+  .play-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding around text */
+    font-size: 16px; /* Font size */
+    border: none; /* No border */
+    cursor: pointer; /* Cursor style */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 10px;
+  }
+  
+  .play-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  
+  /* Styling for heading */
+  .heading {
+    text-align: center;
+    font-size: 24px; /* Example font size adjustment */
+    color: #333; /* Dark text color */
+    margin-bottom: 15px; /* Space below the heading */
+  }
+  
+  /* Styling for text */
+  .text {
+    text-align: center;
+    font-size: 16px; /* Example font size adjustment */
+    line-height: 1.6; /* Improved readability with increased line height */
+    color: black;
+  }
+  
